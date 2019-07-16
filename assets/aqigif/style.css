@@ -1,0 +1,120 @@
+@media screen and (max-width: 700px) {
+    [class*="col-"] {
+        display:block;
+        clear:left;
+        width:100%
+    }
+}
+.logo_home{
+	height: 100px;
+	width: 240px;
+}
+
+.text_home_logo{display: inline;}
+.r-10{margin-top: 10px;}
+.cp {list-style-type: none;}
+
+.nav-item > a{
+	background-color: #267ABF;
+	color:#fff !important;
+}
+
+.nav-item > a:hover{
+	background-color: #195280;
+	color: #fff  !important; 
+}
+
+.nav-item {margin-right: 10px;}
+
+.aktif { 
+	background-color: #F5A31C !important;
+	color:;
+}
+
+.kotak{
+	background-color: #EEEEEE;
+	border-radius: 0.25rem;
+}
+
+.kilasfoto{padding: 20px;}
+
+.cap-kilas > h3{
+	background-color: #F5A31C;
+	margin-bottom: 30px;
+	margin-right:200px; 
+	margin-left:200px;
+	opacity: 0.7;
+	border-radius: 0.25rem;
+}
+
+.cap-kilas > p{font-size: 25px;}
+
+.konten {
+	padding-left: 113px;
+	padding-right: 113px;
+}
+
+h1.section-heading {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 2;
+    margin-top: 0;
+    color: #267ABF;
+}
+
+h1.section-heading .line {
+    border-top: 2px solid #267ABF;
+    display: inline-block;
+    padding: 0 15px;
+    padding-top: 5px;
+
+}
+
+.events .section-content {min-height: 520px;}
+
+.events .event-item {
+    position: relative;
+    padding-left: 55px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+}
+
+.events .event-item .date-label {
+    background: #fff;
+    position: absolute;
+    left: 15px;
+}
+
+.date-label .month {
+    background: #267ABF;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.date-label .date-number {
+    color: #267ABF;
+    clear: left;
+    display: block;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'open sans', arial, sans-serif;
+    font-weight: 500;
+}
+
+.events .event-item h2.title {font-size: 16px;}
+
+.events .event-item .fa {
+    margin-right: 5px;
+    font-size: 14px;
+    min-width: 16px;
+    color: #666;
+}
+
+.events .event-item .fa.fa-map-marker {font-size: 18px;}
+
+.dropdown:hover .dropdown-menu{display: block;}
